@@ -1,0 +1,71 @@
+.form-control.wd-border-round {
+  border-radius: 50px;
+}
+
+.wd-inline-display {
+  display: inline-block;
+}
+
+.btn.wd-border-round {
+  border-radius: 50px;
+}
+
+.wd-image {
+  height: 100px;
+  width: 100px;
+}
+
+.wd-image-logo {
+  border-radius: 50%;
+}
+
+.wd-float-right {
+  float: right;
+}
+
+.wd-container {
+  display: flex;
+  align-items: center;
+}
+
+.wd-width-75 {
+  width: 75%;
+}
+
+.wd-width-25 {
+  width: 25%;
+}
+
+.wd-width-100 {
+  width: 100%;
+}
+
+.wd-width-90 {
+  width: 90%;
+}
+
+.wd-width-10 {
+  width: 10%;
+}
+
+.wd-bold-text {
+  font-weight: bold;
+}
+
+.wd-gray {
+  color: gray;
+}
+
+.wd-white {
+  color: white;
+}
+
+.wd-pos-relative-up {
+  position: relative;
+  bottom: 50px;
+}
+
+.wd-pos-relative-right {
+  position: relative;
+  left: 10px;
+}
