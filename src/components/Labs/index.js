@@ -9,16 +9,16 @@ const Labs = () => {
     return(
       <>
           <h1>Labs</h1>
-          <TodoList/>
-          <ConditionalOutput/>
-          <Styles/>
-          <Classes/>
           <Link to="/hello">
               Hello
           </Link> |
           <Link to="/tuiter">
               Tuiter
           </Link>
+          <TodoList/>
+          <ConditionalOutput/>
+          <Styles/>
+          <Classes/>
       </>
     )
 };
