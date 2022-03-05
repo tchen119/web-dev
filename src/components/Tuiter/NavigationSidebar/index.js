@@ -8,7 +8,7 @@ const NavigationSidebar = (
     return(
       <>
         <div className="list-group">
-          <a href="#" className="list-group-item list-group-item-action">
+          <a className="list-group-item list-group-item-action">
             <i className="fab fa-twitter"></i>
           </a>
           <a href="../home.html" className="list-group-item list-group-item-action">
@@ -27,7 +27,7 @@ const NavigationSidebar = (
               <i className="fa fa-hashtag"></i>
             </div>
           </a>
-          <a href="#" className="list-group-item list-group-item-action">
+          <a className="list-group-item list-group-item-action">
             <div className="d-none d-xl-block">
               <p className="mb-0"><span className="wd-inline-display fa fa-bell"></span> Notifications</p>
             </div>
@@ -35,7 +35,7 @@ const NavigationSidebar = (
               <i className="fa fa-bell"></i>
             </div>
           </a>
-          <a href="#" className="list-group-item list-group-item-action">
+          <a className="list-group-item list-group-item-action">
             <div className="d-none d-xl-block">
               <p className="mb-0"><span className="wd-inline-display fa fa-envelope"></span> Messages</p>
             </div>
@@ -51,7 +51,7 @@ const NavigationSidebar = (
               <i className="fa fa-bookmark"></i>
             </div>
           </a>
-          <a href="#" className="list-group-item list-group-item-action">
+          <a className="list-group-item list-group-item-action">
             <div className="d-none d-xl-block">
               <p className="mb-0"><span className="wd-inline-display fa fa-list"></span> Lists</p>
             </div>
@@ -67,7 +67,7 @@ const NavigationSidebar = (
               <i className="fa fa-user"></i>
             </div>
           </a>
-          <a href="#" className="list-group-item list-group-item-action">
+          <a className="list-group-item list-group-item-action">
             <div className="d-none d-xl-block">
               <p className="mb-0"><span className="wd-inline-display fa fa-ellipsis-h"></span> More</p>
             </div>
