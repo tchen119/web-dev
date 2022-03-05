@@ -34,7 +34,7 @@ const ExploreComponent = () => {
               </div>
             </ul>
           </div>
-          <img src="/images/shuttle.jpg" className="wd-width-100" alt=""></img>
+          <img src="./images/shuttle.jpg" className="wd-width-100" alt=""></img>
           <h2 className="wd-pos-relative-up wd-pos-relative-right wd-white wd-bold-text">SpaceX's Starship</h2>
           <PostSummaryList/>
         </div>
