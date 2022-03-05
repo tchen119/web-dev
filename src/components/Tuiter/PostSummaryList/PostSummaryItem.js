@@ -22,7 +22,7 @@ const PostSummaryItem = (
               <p className="wd-bold-text mt-0 mb-0">{post.title}</p>
               <p className="wd-gray">{post.tweets ? post.tweets + ' Tweets' : ''}</p>
             </div>
-            <img src={post.image} className="wd-image wd-width-25 wd-float-right"></img>
+            <img src={post.image} className="wd-image wd-width-25 wd-float-right" alt=""></img>
           </div>
         </li>
       </>

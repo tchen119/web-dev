@@ -1,4 +1,3 @@
-import './vendors/bootstrap/css/bootstrap.min.css';
 import './vendors/bootstrap/bootstrap.min.css';
 
 import HelloWorld from "./components/HelloWorld";
