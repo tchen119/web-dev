@@ -1,7 +1,8 @@
 import React from "react";
 import {Link} from "react-router-dom";
-import './index.css';
 import ExploreScreen from "./ExploreScreen";
+import NavigationSidebar from "./NavigationSidebar";
+import './index.css';
 
 const Tuiter = () => {
     return(
