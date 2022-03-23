@@ -1,7 +1,7 @@
 import React from "react";
 import NavigationSidebar from "../NavigationSidebar";
 import ExploreComponent from "./ExploreComponent";
-import WhoToFollowList from "../WhoToFollowList";
+import WhoToFollowList from "../who-to-follow-list";
 
 const ExploreScreen = () => {
   return(

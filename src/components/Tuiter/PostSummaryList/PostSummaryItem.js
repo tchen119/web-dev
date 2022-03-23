@@ -15,12 +15,12 @@ const PostSummaryItem = (
         <li className="list-group-item">
           <div className="wd-container">
             <div className="wd-width-75">
-              <p className="wd-gray mt-0 mb-0">{post.topic}</p>
+              <p className="wd-white mt-0 mb-0">{post.topic}</p>
               <p className="wd-inline-display wd-bold-text mt-0 mb-0">{post.userName} </p>
               <i className="fas fa-check-circle wd-inline-display mt-0 mb-0"></i>
-              <p className="wd-inline-display wd-gray mt-0 mb-0"> - {post.time}</p>
+              <p className="wd-inline-display wd-white mt-0 mb-0"> - {post.time}</p>
               <p className="wd-bold-text mt-0 mb-0">{post.title}</p>
-              <p className="wd-gray">{post.tweets ? post.tweets + ' Tweets' : ''}</p>
+              <p className="wd-white">{post.tweets ? post.tweets + ' Tweets' : ''}</p>
             </div>
             <img src={post.image} className="wd-image wd-width-25 wd-float-right" alt=""></img>
           </div>

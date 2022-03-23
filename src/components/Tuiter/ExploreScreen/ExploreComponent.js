@@ -4,7 +4,6 @@ import PostSummaryList from "../PostSummaryList";
 const ExploreComponent = () => {
   return(
     <>
-      <div className="col-10 col-lg-7">
         <div className="container">
           <div className="mb-2">
             <div className="wd-container">
@@ -38,7 +37,6 @@ const ExploreComponent = () => {
           <h2 className="wd-pos-relative-up wd-pos-relative-right wd-white wd-bold-text">SpaceX's Starship</h2>
           <PostSummaryList/>
         </div>
-      </div>
     </>
   );
 }
