@@ -8,6 +8,9 @@ const Navigation = () => {
           <Link to="/hello">
               Hello
           </Link> |
+          <Link to="/labs">
+              Labs
+          </Link> |
           <Link to="/tuiter">
               Tuiter Home Page
           </Link> |
