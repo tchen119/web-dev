@@ -14,7 +14,10 @@ const Labs = () => {
               Hello
           </Link> |
           <Link to="/tuiter">
-              Tuiter
+              Tuiter Home Page
+          </Link> |
+          <Link to="/tuiter/explore">
+              Tuiter Explore Page
           </Link>
           <ReduxExamples/>
           <TodoList/>
