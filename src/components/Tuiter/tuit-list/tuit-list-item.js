@@ -2,12 +2,13 @@ import React from "react";
 import './tuit-list.css';
 import {useDispatch} from "react-redux";
 import TuitStats from "../home-screen/tuit-stats";
+import {deleteTuit} from "../../../actions/tuits-actions";
 
 const TuitListItem = (tuit) => {
   const dispatch = useDispatch();
-  const deleteTuit = (tuit) => {
-    dispatch({type: 'delete-tuit', tuit})
-  };
+//  const deleteTuit = (tuit) => {
+//    dispatch({type: 'delete-tuit', tuit})
+//  };
   const containsAttachment = tuit.tuit.hasOwnProperty("attachments");
   var containsVideo = false;
   var containsImage = false;
@@ -32,7 +33,7 @@ const TuitListItem = (tuit) => {
           <div className="wd-float-left wd-margin-left-right wd-width-90">
             <p className="wd-15-white-bold-text wd-display-inline">{tuit.tuit.topic}</p>
             <p className="wd-15-gray-text wd-display-inline">@{tuit.tuit.postedBy.username}</p>
-            <i onClick={() => deleteTuit(tuit.tuit)}
+            <i onClick={() => deleteTuit(dispatch, tuit.tuit)}
                      className="fas fa-remove fa-2x fa-pull-right wd-float-right"></i>
             <p className="wd-15-white-text wd-max-width">{tuit.tuit.tuit}</p>
 
