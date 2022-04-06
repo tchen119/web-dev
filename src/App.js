@@ -6,12 +6,17 @@ import Tuiter from "./components/Tuiter";
 import ExploreComponent from "./components/Tuiter/ExploreScreen/ExploreComponent";
 import HomeScreen from "./components/Tuiter/home-screen";
 import Navigation from "./components/Tuiter/navigation";
-import {BrowserRouter, Route, Routes} from "react-router-dom";
+import Tuits from "./a9/Practice/Tuits";
+import {BrowserRouter, Route, Routes, Link} from "react-router-dom";
 
 function App() {
   return (
     <BrowserRouter>
       <div className="container">
+        <h1>Practice</h1>
+        <Link to="/a9/twitter">Twitter</Link>
+        <Tuits/>
+
         <Routes>
           <Route path="/">
             <Route path="navigation" element={<Navigation/>}/>
